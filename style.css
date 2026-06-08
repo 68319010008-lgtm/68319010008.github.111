@@ -1,0 +1,80 @@
+/* Element Selector */
+body{
+    background: linear-gradient(to right,#e5f1db,#b2f784);
+    font-family: Tahoma;
+}
+
+/* Class Selector */
+.card{
+    width: 500px;
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+
+    border: 3px solid #9ae76d;
+    border-radius: 20px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+.card:hover{
+    transform: scale(1.03);
+}
+
+/* ID Selector */
+#profile-img{
+    width: 180px;
+    height: 180px;
+
+    border-radius: 50%;
+    border: 5px solid #bbe972;
+
+    margin-bottom: 15px;
+}
+
+/* Element Selector */
+h1{
+    color: #56961b;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #508b0d;
+    margin-top: 20px;
+}
+
+p{
+    color: #555;
+    line-height: 1.8;
+}
+
+ul{
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* Class Selector */
+.info{
+    background: #f4f6f9;
+    padding: 15px;
+
+    border-radius: 12px;
+    margin-top: 15px;
+
+    border-left: 5px solid #55a514;
+}
+
+/* Hover Effect */
+.info:hover{
+    background: #e7e4c6;
+}
+
+/* Class Selector */
+.contact{
+    background: #f8f5f6;
+}
